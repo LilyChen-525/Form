@@ -1,0 +1,90 @@
+body {
+    background-image: url("image/background.jpg");
+    /* "網頁上面預設"會有8px的邊界，因此用margin-top: 0px;(意指不要有邊界距離) */
+    margin-top: 0px;
+}
+.bg {
+    width: 1080px;
+    /* 置中 */
+    margin: auto;
+    background-color: rgb(255, 255, 255); 
+}
+
+.header {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.header img {
+    max-width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(165, 93, 93);
+}
+
+.qu1,.qu3,.qu5,.qu7,.qu9 {
+    padding: 30px;
+    background-color: rgba(231, 218, 218, 0.884);
+}
+
+/* hr 分隔線預設css樣式就有margin-block-start及margin-block-end: 0.5em;，因此把margin-block-start值改為0 */
+/* margin-block-start屬性用於定義元素的邏輯塊起始邊距 */
+hr {
+    margin-block-start: 0em;
+}
+
+.qu2,.qu4,.qu6,.qu8 {
+    padding: 30px;
+}
+
+label[for]{
+    cursor: pointer;
+}
+
+input[type="radio"],[type="checkbox"],[type="submit"],[type="reset"]{
+    cursor: pointer;
+}
+
+.quno{
+    display: inline-block;
+    color:rgb(255, 57, 57);
+    font-weight: bolder;
+}
+
+b {
+    text-decoration:underline;
+}
+
+textarea[placeholder] {
+    font-size: 16px;
+}
+
+div.recl {
+     text-align: center;
+}
+
+input[type="submit"],[type="reset"]{
+   width: 60px;
+   height: 30px;
+   background-color: rgb(255, 240, 152);
+   border-radius:10px;
+   }
+
+input[type="submit"]:hover{
+    background-color: rgb(247, 110, 110);
+}
+
+input[type="submit"]:active{
+    background-color: rgba(165, 120, 120, 0.884);
+}
+
+input[type="reset"]:hover{
+    background-color: rgb(247, 110, 110);
+}
+
+input[type="reset"]:active{
+    background-color: rgba(165, 120, 120, 0.884);
+}
